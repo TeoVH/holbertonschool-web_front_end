@@ -4,6 +4,16 @@
 - Text color $blue from 10-colors.scss to the class .blue
 */
 
-$red: #FF0000;
-$green: #00FF00;
-$blue: #0000FF;
+@import "10-colors.scss";
+
+.red {
+  color: $red;
+}
+
+.green {
+  color: $green;
+}
+
+.blue {
+  color: $blue;
+}
